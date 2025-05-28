@@ -7,8 +7,8 @@ CMAKE_REMOVE_MODULES_LIST=( FindCurses )
 inherit cmake
 
 DESCRIPTION="Interactive memory viewer"
-HOMEPAGE="https://unixdev.ru/memwatch"
-SRC_URI="http://unixdev.ru/src/${P}.tar.gz"
+HOMEPAGE="https://bitbucket.org/PascalRD/memwatch"
+SRC_URI="https://unixdev.ru/src/${P}.tar.gz"
 
 LICENSE="WTFPL-2"
 SLOT="0"
