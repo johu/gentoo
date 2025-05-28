@@ -1,0 +1,22 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index b2930f5..9b33e05 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,5 +1,5 @@
+-project()
+-cmake_minimum_required(VERSION 2.8)
++cmake_minimum_required(VERSION 3.10)
++project(memwatch)
+ 
+ #set(CMAKE_VERBOSE_MAKEFILE ON)
+ set(CMAKE_C_FLAGS "")
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index bbc60c3..372c9f7 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -1,4 +1,4 @@
+-cmake_minimum_required(VERSION 2.8)
++cmake_minimum_required(VERSION 3.10)
+ project(memwatch)
+ 
+ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")

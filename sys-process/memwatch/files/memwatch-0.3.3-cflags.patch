@@ -1,0 +1,14 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 9e0d34f..b2930f5 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,7 +1,8 @@
++project()
+ cmake_minimum_required(VERSION 2.8)
+ 
+ #set(CMAKE_VERBOSE_MAKEFILE ON)
+-set(CMAKE_C_FLAGS "-Wall -Wextra -pedantic")
++set(CMAKE_C_FLAGS "")
+ add_subdirectory(src)
+ 
+ # uninstall target
